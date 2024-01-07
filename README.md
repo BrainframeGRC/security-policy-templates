@@ -199,24 +199,24 @@ The JSON documents for those four frameworks are included strictly because of
 our internal usage and shown as examples. Using those requires that you have
 obtained necessary end-user license for the framework/standard for your own organization.
 
-### Original Repository
+## Original Repository
 This project is a fork of [security-policy-templates][origin] originally developed 
 by [JupiterOne][codeowners]. 
 
 [origin]: https://github.com/JupiterOne/security-policy-templates
 [codeowners]: https://github.com/JupiterOne/security-policy-templates/blob/main/CODEOWNERS
 
-## License
+### License
 This work is licensed under the same terms as the original, [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0)][CC]. 
 A copy of the license is available in the [LICENSE][license] file of this repository.
 
 [CC]: https://creativecommons.org/licenses/by-sa/4.0/
 [license]: https://github.com/BrainframeGRC/security-policy-templates/blob/main/LICENSE
 
-## Modifications
+### Modifications
 Significant modifications and additions have been made for the specific purposes of
 this project. Any modifications made in this fork are also shared under the same license.
 
-## Acknowledgements
+### Acknowledgements
 We acknowledge and thank JupiterOne for their great work on the original version of 
 security-policy-templates. Their contributions have been foundational to this project.
