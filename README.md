@@ -5,12 +5,12 @@ designed for cloud-native technology organizations. The policy package covers
 the requirements and controls for most compliance frameworks and best practices,
 in a lightweight approach.
 
-They can be used as stand-alone documents, or in combination with the [`jupiter-policy-builder` CLI][builder]
-
 To support its mission of GRC Democratization, [Brainframe.com][brainframe] 
 facilitates the use and continious improvement of these templates to help companies
 build and run an efficient and effective information security management system
 while focussing on standardisation and avoiding costly re-invention of the wheel.
+
+The templates can also be used as stand-alone documents, or in combination with the [`jupiter-policy-builder` CLI][builder]
 
 [builder]: https://github.com/JupiterOne/jupiter-policy-builder
 [brainframe]: https://www.brainframe.com
