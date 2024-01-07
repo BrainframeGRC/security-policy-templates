@@ -5,14 +5,15 @@ designed for cloud-native technology organizations. The policy package covers
 the requirements and controls for most compliance frameworks and best practices,
 in a lightweight approach.
 
-They can be used as stand-alone documents. But the structure is designed to be
-best suited for use with the [`jupiter-policy-builder` CLI][builder] and the
-**policies** app on the **[JupiterOne][j1]** platform.
+To support its mission of GRC Democratization, [Brainframe.com][brainframe] 
+facilitates the use and continious improvement of these templates to help companies
+build and run an efficient and effective information security management system
+while focussing on standardisation and avoiding costly re-invention of the wheel.
 
-These are used internally at JupiterOne / LifeOmic Security.
+The templates can also be used as stand-alone documents, or in combination with the [`jupiter-policy-builder` CLI][builder]
 
-[j1]: https://jupiterone.com/features/policy-builder/
 [builder]: https://github.com/JupiterOne/jupiter-policy-builder
+[brainframe]: https://www.brainframe.com
 
 ## TL;DR
 
@@ -194,10 +195,28 @@ high level written policy. Having a written policy by itself without
 implementation or enforcement does not address the risk of any security
 or compliance requirement.
 
-Internally at JupiterOne, we leverage CIS Controls and PCI DSS. JupiterOne's
-parent company, LifeOmic, builds a suite of healthcare related software products
-and is therefore under HIPAA regulation and has adopted HITRUST CSF.
-
 The JSON documents for those four frameworks are included strictly because of
 our internal usage and shown as examples. Using those requires that you have
-obtained necessary end-user license for the framework for your own organization.
+obtained necessary end-user license for the framework/standard for your own organization.
+
+## Original Repository
+This project is a fork of [security-policy-templates][origin] originally developed 
+by [JupiterOne][codeowners]. 
+
+[origin]: https://github.com/JupiterOne/security-policy-templates
+[codeowners]: https://github.com/JupiterOne/security-policy-templates/blob/main/CODEOWNERS
+
+### License
+This work is licensed under the same terms as the original, [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0)][CC]. 
+A copy of the license is available in the [LICENSE][license] file of this repository.
+
+[CC]: https://creativecommons.org/licenses/by-sa/4.0/
+[license]: https://github.com/BrainframeGRC/security-policy-templates/blob/main/LICENSE
+
+### Modifications
+Significant modifications and additions have been made for the specific purposes of
+this project. Any modifications made in this fork are also shared under the same license.
+
+### Acknowledgements
+We acknowledge and thank JupiterOne for their great work on the original version of 
+security-policy-templates. Their contributions have been foundational to this project.
