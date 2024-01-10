@@ -47,7 +47,14 @@
     "needStandardGDPR": false,
     "needStandardNIST": false,
     "needStandardPCI": false,
-    "isServiceProvider": false
+    "isServiceProvider": false,
+    "isHIPAACoveredEntity": false,
+    "isHIPAABusinessAssociate": false,
+    "isHIPAAGovernmentEntity": false,
+    "isHIPAAPlanSponsor": false,
+    "isHIPAAHealthcareClearinghouse": false,
+    "securityAwarenessFrequency": "annually",
+    "mfaProvider": "Google authenticator"
   },
   "standards": [],
   "domains": [
