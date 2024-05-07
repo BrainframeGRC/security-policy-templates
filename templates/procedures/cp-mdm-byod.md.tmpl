@@ -8,7 +8,7 @@ Mobile devices (including personal smart devices) may be used for business
 purpoose under the following conditions and management:
 
 - All employee mobile devices accessing or containing company data are
-  inventoried and managed by IT using **{{provider}}**. The inventory will
+  inventoried and managed by IT using **{{mdmProvider}}**. The inventory will
   maintain current information on the owner of the device, its approved usages,
   installed applications, system status (operating system version and patches),
   and its state (e.g. in-use, lost, decommissioned).
@@ -29,7 +29,7 @@ purpoose under the following conditions and management:
   strictly prohibited and enforced by detective or preventative software.
 
 - Anti-malware software is installed and active on mobile devices. Alternatively,
-  a sandbox environment is created on BYOD devices using the **{{provider}}**
+  a sandbox environment is created on BYOD devices using the **{{mdmProvider}}**
   MDM solution to allow only white-listed application and data in a contained
   workspace.
 
@@ -44,7 +44,7 @@ purpoose under the following conditions and management:
 
 {{/supportBYODandMDM}}
 
-{{^supportBYODandMDM}}
+{{supportBYODandMDM}}
 
 {{companyShortName}} currently does not require or support employees bringing their own
 computing devices.
@@ -59,6 +59,6 @@ responsible to
 
 IT and Security provides automated scripts for end-user system configurations
 and/or technical assistance as needed.  Such configurations are audited daily
-using **{{provider}}** centrally managed by the Security team.
+using **{{mdmProvider}}** centrally managed by the Security team.
 
 {{/supportBYODandMDM}}
