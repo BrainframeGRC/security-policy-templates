@@ -1,16 +1,43 @@
-# Threat Detection and Prevention
+# Threat Detection and Prevention Policy
 
-`{{defaultRevision}}`
+## 1. Purpose  
 
-In order to preserve the integrity of data that {{companyShortName}} stores, processes, or
-transmits for Customers, {{companyShortName}} implements strong intrusion detection tools
-and policies to proactively track and retroactively investigate unauthorized
-access. This include threat detection and prevention at both the network and
-host level, as well as threat intelligence monitoring.
+The purpose of this policy is to define how {{companyShortName}} detects, monitors, and mitigates security threats across its cloud-based infrastructure. Given our reliance on managed networks and cloud environments, this policy focuses on lightweight yet effective security measures tailored to our operational model.  
 
-## Policy Statements
+This policy complements and operates in conjunction with related policies, including but not limited to:  
+- **Information Security Policy** – overarching security framework  
+- **Incident Response Policy** – handling security incidents  
+- **Vulnerability Management Policy** – proactive risk mitigation  
+- **Access Policy** – controlling user and system access  
+- **System Audits, Monitoring, and Assessments Policy** – ensuring ongoing security oversight  
+- **Risk Management Policy** – addressing and mitigating security risks  
 
-{{companyShortName}} policy requires that:
+## 2. Scope  
 
-(a) All critical systems, assets and environments must implement realtime threat
-detection or prevention.
+This policy applies to all cloud-based systems, applications, and endpoints within {{companyShortName}}, including third-party services that process or store company data. Given the nature of the company operating in shared or managed office spaces, reliance on a secure cloud infrastructure is prioritized over on-premise network defences.
+
+## 3. Policy Statements  
+
+### 3.1. Threat Detection and Monitoring  
+- All cloud environments must have built-in security monitoring enabled (e.g., AWS GuardDuty, Azure Security Center, Google Security Command Center).  
+- Endpoint Detection and Response (EDR) solutions must be used to monitor workstations and cloud workloads for suspicious activity.  
+- Logs from critical systems must be collected and monitored for signs of unauthorized access or anomalous behaviour.  
+- Threat intelligence sources should be leveraged to stay informed about emerging security risks.  
+
+### 3.2. Threat Prevention and Response  
+- Security misconfigurations must be identified and remediated as part of continuous security monitoring.  
+- Automated security controls, such as firewall rules, access restrictions, and anomaly detection, should be enabled where applicable.  
+- Any detected security threats must be escalated according to the **Incident Response Policy**.  
+- Employees must be trained to recognize and report security threats as outlined in the **Roles, Responsibilities, and Training Policy**.  
+
+### 3.3. Access Control and Identity Security  
+- User access should follow the principle of least privilege, as defined in the **Access Policy**.  
+- Multi-Factor Authentication (MFA) must be enforced for all cloud-based services where available.  
+- Automated monitoring should be enabled to detect unauthorized access attempts or unusual login activity.  
+
+### 3.4. Continuous Improvement  
+- Regular security assessments and internal reviews must be conducted in accordance with the **System Audits and Monitoring Policy**.  
+- Threat detection capabilities should be reviewed periodically to align with evolving risks.  
+
+## 4. Compliance and Review  
+This policy will be reviewed annually or as needed to ensure alignment with evolving security threats and business needs. Updates will be made in coordination with the **Policy Management** process.
