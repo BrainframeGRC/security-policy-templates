@@ -1,3 +1,5 @@
-* @jupiterone/janus
+# This repository is maintained by the BrainframeGRC team
+# Primary contact: Davy Cox
 
-CODEOWNERS @jupiterone/security
+* @BrainframeGRC
+/CODEOWNERS @BrainframeGRC
